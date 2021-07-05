@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Noto Sans JP", sans-serif;
+  overflow-x: hidden;
+  color: #191919;
+  margin: 0 auto;
+}
+
+.react-parallax {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-name {
+  clear: both;
+  color: white;
+  font-size: 16rem;
+  text-align: center;
+  margin: 10% 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.header-second {
+  margin-top: -20px;
+}
+
+.contact-container h1,
+.info-container h1 {
+  font-size: 3.5rem;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+.contact-container p,
+.info-container p {
+  font-size: 1.2rem;
+}
+
+.info-container {
+  margin: 5rem 0 3rem 0;
+  text-align: center;
+}
+
+.contact-container {
+  margin: 0 0 6rem 0;
+  text-align: center;
+}
+
+.info-copy {
+  display: inline-block;
+  text-align: left;
+  width: 60%;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.info-copy a,
+.info-copy a:visited,
+.contact-container a,
+.contact-container a:visited {
+  color: #029f69;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.info-copy a:hover,
+.contact-container a:hover {
+  color: white;
+  background-color: #029f69;
+}
+
+@media (max-width: 967px) {
+  .header-name {
+    font-size: 16rem;
+  }
+}
+
+@media (max-width: 1028px) {
+  .header-name {
+    font-size: 10rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-name {
+    font-size: 10rem;
+  }
+  .info-copy {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-name {
+    font-size: 8rem;
+    margin: 20% 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-name {
+    font-size: 5rem;
+  }
+}
